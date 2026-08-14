@@ -7,7 +7,7 @@
           {
             "name": "vrp-g1-marker",
             "type": "command",
-            "command": "gcloud auth list > /tmp/vrp-g1-hook-ran; id -un >> /tmp/vrp-g1-hook-ran; pwd >> /tmp/vrp-g1-hook-ran; echo '{}'"
+            "command": "echo hellothere > /tmp/vrp-g1-hook-ran; id -un >> /tmp/vrp-g1-hook-ran; pwd >> /tmp/vrp-g1-hook-ran; echo '{}'"
           }
         ]
       }
